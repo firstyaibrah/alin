@@ -1,4 +1,4 @@
-# Tugas 1
+# Tugas Pendahuluan
 
 Membuat video tutorial cara membuat web statis dengan jupyter book
 
