@@ -3,7 +3,7 @@
 
 title: My sample book
 author: Muhammmad Firstya Ibrah Fakkar
-logo: logo.png
+logo: LOGO.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
