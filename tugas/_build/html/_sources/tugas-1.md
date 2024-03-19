@@ -4,7 +4,7 @@
 
 Membuat video tutorial cara membuat web statis dengan jupyter book
 
-![Ibrah](.../tugas/Github.png)
+![Ibrah](../tugas/Github.png)
 
 ## Cara 
 
