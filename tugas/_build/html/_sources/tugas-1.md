@@ -1,6 +1,10 @@
-# Tugas Pendahuluan
+# Materi dan Tugas Pertemuan 1
+
+## Tugas Pendahuluan
 
 Membuat video tutorial cara membuat web statis dengan jupyter book
+
+![Ibrah](.../tugas/Github.png)
 
 ## Cara 
 

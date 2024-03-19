@@ -4,6 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: tugas-p
 - file: tugas-1
 - file: tugas-2
+- file: tugas-3
