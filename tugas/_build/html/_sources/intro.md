@@ -1,8 +1,8 @@
-# Selamat datang di jupyter book saya
+# Selamat datang di Buku Komputasi Aljabar Linier Saya
 
-Halo, Perkenalkan Saya Muhammad Fisrtya Ibrah Fakkar Dengan NIM 23-107, [Berikut ini adalah akun Github Saya](https://github.com/firstyaibrah/alin) Untuk Informasi Lebih Lanjut.
+Halo, perkenalkan saya Muhammad Fisrtya Ibrah Fakkar dengan NIM 23-107, ini adalah laman dari mata kuliah Komputasi Aljabar Linier saya.
 
-Berikut adalah daftar tugas saya
+## Daftar Isi
 
 
 ```{tableofcontents}
