@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'tugas-3';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Matrix Invers" href="tugas-4.html" />
     <link rel="prev" title="Eliminasi Gaussian" href="tugas-2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -179,6 +180,7 @@
 <li class="toctree-l1"><a class="reference internal" href="tugas-1.html">Github</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tugas-2.html">Eliminasi Gaussian</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Aljabar Matrix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tugas-4.html">Matrix Invers</a></li>
 </ul>
 
     </div>
@@ -474,8 +476,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[4 8]
- [9 2]]
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[8 5]
+ [5 6]]
 </pre></div>
 </div>
 </div>
@@ -500,11 +502,11 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matrix A
-[[0 9]
- [5 5]]
+[[1 5]
+ [9 3]]
 Matrix A yang sudah di transpose
-[[0 5]
- [9 5]]
+[[1 9]
+ [5 3]]
 </pre></div>
 </div>
 </div>
@@ -562,15 +564,15 @@ Matrix A yang sudah di transpose
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matriks A
 [[3 5]
- [7 5]]
+ [2 9]]
 
 Matriks B
-[[9 6]
- [7 4]]
+[[7 4]
+ [5 6]]
 
 Hasil dari A + B
-[[12 11]
- [14  9]]
+[[10  9]
+ [ 7 15]]
 </pre></div>
 </div>
 </div>
@@ -603,16 +605,16 @@ Hasil dari A + B
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matriks A
-[[3 6]
- [6 8]]
+[[2 9]
+ [9 6]]
 
 Matriks B
-[[7 9]
- [3 9]]
+[[4 9]
+ [9 2]]
 
 Hasil dari A - B
-[[-4 -3]
- [ 3 -1]]
+[[-2  0]
+ [ 0  4]]
 </pre></div>
 </div>
 </div>
@@ -653,24 +655,24 @@ Hasil dari A - B
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matriks A
-[[1 0 5]
- [9 2 6]
- [4 3 4]]
+[[5 8 4]
+ [6 4 4]
+ [5 8 2]]
 
 Matriks B
-[[7 3 9]
- [1 9 0]
- [7 9 1]]
+[[9 3 2]
+ [4 5 4]
+ [6 5 7]]
 
 Hasil dari A x B
-[[ 7  0 45]
- [ 9 18  0]
- [28 27  4]]
+[[45 24  8]
+ [24 20 16]
+ [30 40 14]]
 
 Hasil dari A x k
-[[ 2  0 10]
- [18  4 12]
- [ 8  6  8]]
+[[10 16  8]
+ [12  8  8]
+ [10 16  4]]
 </pre></div>
 </div>
 </div>
@@ -707,21 +709,21 @@ Hasil dari A x k
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matrix A:
-[[3 5 1]
- [0 0 6]
- [3 7 8]
- [9 9 3]]
+[[7 3 0]
+ [5 0 2]
+ [7 8 1]
+ [1 1 1]]
 
 Matrix B:
-[[0 6 2 4]
- [6 7 8 9]
- [2 3 4 9]]
+[[2 6 7 4]
+ [1 9 0 3]
+ [2 3 7 4]]
 
 Hasil akhir perkalian matriks:
-[[ 32  56  50  66]
- [ 12  18  24  54]
- [ 58  91  94 147]
- [ 60 126 102 144]]
+[[ 17  69  49  37]
+ [ 14  36  49  28]
+ [ 24 117  56  56]
+ [  5  18  14  11]]
 </pre></div>
 </div>
 </div>
@@ -767,6 +769,15 @@ Hasil akhir perkalian matriks:
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Eliminasi Gaussian</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="tugas-4.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Matrix Invers</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
